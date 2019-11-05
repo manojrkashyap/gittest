@@ -1,0 +1,34 @@
+{"SAML2_AUTH" : {
+  
+    "DEFAULT_NEXT_URL": "/",
+    "CREATE_USER": "True",
+    "NEW_USER_PROFILE": {
+        "USER_GROUPS": [], 
+        "ACTIVE_STATUS": true, 
+        "STAFF_STATUS": true,  
+        "SUPERUSER_STATUS": false
+    },
+
+    "USER_ROLES": {
+        "ADMIN" : "SUPER_USER",
+        "USER" : "STAFF_STATUS"
+    },
+
+    "ATTRIBUTES_MAP": {
+        "email": "Email",
+        "username": "UserName",
+        "first_name": "FirstName",
+        "last_name": "LastName"
+    },
+    "TRIGGER": {
+        "CREATE_USER": "path.to.your.new.user.hook.method",
+        "BEFORE_LOGIN": "path.to.your.login.hook.method",
+        "GET_USER": "path.to.your.user.handling.method",
+        "AFTER_LOGIN": "path.to.your.after.user.created.method"
+    },
+    "ASSERTION_URL": "https://mysite.com",
+    "NAME_ID_FORMAT": null,
+    "USE_JWT": false,
+    "FRONTEND_URL": "https://myfrontendclient.com"
+}
+}

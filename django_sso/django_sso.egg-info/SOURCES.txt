@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+__init__.py
+setup.py
+django_sso.egg-info/PKG-INFO
+django_sso.egg-info/SOURCES.txt
+django_sso.egg-info/dependency_links.txt
+django_sso.egg-info/requires.txt
+django_sso.egg-info/top_level.txt
+sso/__init__.py
+sso/admin.py
+sso/models.py
+sso/urls.py
+sso/views.py
+sso/migrations/0001_initial.py
+sso/migrations/__init__.py

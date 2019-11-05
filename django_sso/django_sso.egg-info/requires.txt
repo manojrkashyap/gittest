@@ -1,0 +1,4 @@
+pysaml2>=4.5.0
+django>=2.0
+djangorestframework-jwt
+django-rest-auth
